@@ -21,7 +21,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dae9f0+15,9cd1ee+77,deecf2+100 */
     background: rgb(218,233,240); /* Old browsers */
     background: -moz-linear-gradient(left,  rgba(218,233,240,1) 15%, rgba(156,209,238,1) 77%, rgba(222,236,242,1) 100%); /* FF3.6-15 */
@@ -32,4 +32,11 @@ body, .navbar {
 
 .navbar {
     border: none;
+}
+
+.home-callout {
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: #8c0600;
 }
