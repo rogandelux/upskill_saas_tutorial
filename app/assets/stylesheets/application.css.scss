@@ -16,11 +16,15 @@
 
 @import 'bootstrap-sprockets'; 
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
+// Typography styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+// background gradient
 .navbar, .home-callout {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dae9f0+15,9cd1ee+77,deecf2+100 */
     background: rgb(218,233,240); /* Old browsers */
@@ -30,6 +34,7 @@ h1, h2, h3 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae9f0', endColorstr='#deecf2',GradientType=1 ); /* IE6-9 */
 }
 
+// Nav sytles
 .navbar {
     border: none;
 }
@@ -45,13 +50,14 @@ h1, h2, h3 {
 
 .navbar-default .navbar-nav > li > a {
     color: black;
-    &:hover {
+    &:hover { 
         color: #8aa2af;
         background-color: transparent;
         opacity: 0.75;
     }
 }
 
+// Homepage styles
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
